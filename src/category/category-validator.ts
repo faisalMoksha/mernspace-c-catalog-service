@@ -21,6 +21,8 @@ export default [
                     )}]`,
                 );
             }
+
+            return true;
         }),
 
     body("attributes").exists().withMessage("Attributes field is required"),
